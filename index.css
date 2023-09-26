@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input{
+    border-color: lightblue;
+    box-shadow: none;
+    border-radius: 0.5rem;
+    border-style: solid;
+    font-size: 1rem;
+    text-indent: 0.5rem;
+    color: #333;
+    padding: 1rem 0rem 1rem;
+    width: 100%;
+    
+}
+
+button{
+    border-color: lightblue;
+    box-shadow: none;
+    border-radius: 0.5rem;
+    border-style: solid;
+    font-size: 1rem;
+    background-color: lightblue;
+    margin-top: 0.5rem;
+}
+
+
+button:hover{
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: aliceblue;
+}
+
+
+#input-el:focus{
+    outline-color: cadetblue;
+    background-color: #aecae23a;
+}
+
+#saved-el{
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+li a{
+    color: lightblue;
+}
+
+a:hover{
+    color: cadetblue;
+}
